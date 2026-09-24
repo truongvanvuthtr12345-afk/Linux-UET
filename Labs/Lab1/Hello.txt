@@ -1,0 +1,5 @@
+Hello everyone!
+This is Advanced Programming Techniques course.
+There are many exercises for you in this course.
+Let's practice what we learn in this course with exercises.
+Are you ready?

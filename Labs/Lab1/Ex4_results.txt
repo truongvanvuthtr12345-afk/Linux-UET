@@ -1,0 +1,36 @@
+total 124
+drwxr-x--- 1 codespace codespace 4096 Sep 24 13:35 .
+drwxr-xr-x 1 root      root      4096 Sep 22 08:08 ..
+drwxrwxr-x 2 codespace codespace 4096 Sep 10 12:20 .anaconda
+-rw------- 1 codespace codespace 1064 Sep 24 13:17 .bash_history
+-rw-r--r-- 1 codespace codespace  220 Mar 31  2024 .bash_logout
+-rw-r--r-- 1 codespace codespace 5885 Sep 10 12:17 .bashrc
+drwxrwxr-x 1 codespace codespace 4096 Sep 22 08:08 .cache
+drwxrwxr-x 1 codespace codespace 4096 Sep 10 12:20 .conda
+drwxr-xr-x 1 codespace codespace 4096 Sep 22 08:09 .config
+drwx------ 3 codespace codespace 4096 Sep 22 08:08 .copilot
+lrwxrwxrwx 1 root      root        47 Sep 22 08:08 .docker -> /workspaces/.codespaces/.persistedshare/.docker
+lrwxrwxrwx 1 root      root        17 Sep 10 12:35 .dotnet -> /usr/share/dotnet
+-rw-r--r-- 1 codespace codespace  126 Sep 22 08:08 .gitconfig
+drwxr-xr-x 2 root      root      4096 Sep 10 12:35 .hugo
+drwxrwxr-x 2 codespace codespace 4096 Sep 10 12:35 .jupyter
+-rw------- 1 codespace codespace   20 Sep 24 13:03 .lesshst
+drwxrwxr-x 1 codespace codespace 4096 Sep 10 12:35 .local
+drwxr-xr-x 2 root      root      4096 Sep 10 12:35 .maven
+drwxr-xr-x 2 codespace root      4096 Sep 10 12:30 .minikube
+drwxrwxr-x 4 codespace codespace 4096 Sep 10 12:20 .npm
+drwxr-xr-x 1 codespace codespace 4096 Sep 10 12:30 .oh-my-zsh
+drwxrwxr-x 2 codespace codespace 4096 Sep 10 12:35 .php
+-rw-r--r-- 1 codespace codespace  807 Mar 31  2024 .profile
+drwxr-xr-x 2 root      root      4096 Sep 10 12:35 .python
+drwxr-xr-x 2 root      root      4096 Sep 10 12:35 .ruby
+drwxr-xr-x 5 codespace codespace 4096 Sep 22 08:08 .vscode-remote
+-rw-r--r-- 1 codespace codespace   22 Sep 10 12:17 .zprofile
+-rw-r--r-- 1 codespace codespace 4018 Sep 10 12:17 .zshrc
+drwxr-xr-x 2 codespace codespace 4096 Sep 24 13:35 Labs
+lrwxrwxrwx 1 root      root        33 Sep 10 12:35 java -> /usr/local/sdkman/candidates/java
+lrwxrwxrwx 1 root      root        20 Sep 10 12:35 nvm -> /usr/local/share/nvm
+29
+9
+3
+42
