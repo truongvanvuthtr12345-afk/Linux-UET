@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <pthread.h>
+
+int a[10] = {1,2,3,4,5,6,7,8,9,10};
+
+typedef struct {
+    int *a, start, end, id;
+} Tark;
+
+void *work(void *arg) {
+    Tark *t = (Tark *)arg;
+    printf("Thread %d:", t->id);
+
+    for (int i = t->start; i < t->end; i++)
+        printf(" %d", t->a[i]);
+
+    printf("\n");
+    return NULL;
+}
+
+int main() {
+    pthread_t t[3];
+    Tark d[3] = {
+        {a, 0, 4, 1},
+        {a, 4, 7, 2},
+        {a, 7, 10, 3}
+    };
+
+    for (int i = 0; i < 3; i++)
+        pthread_create(&t[i], NULL, work, &d[i]);
+
+    for (int i = 0; i < 3; i++)
+        pthread_join(t[i], NULL);
+
+    return 0;
+}
